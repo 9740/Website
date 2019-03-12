@@ -25,7 +25,7 @@ ob_start();
 |
 */
 
-$config['base_url'] = 'http://localhost/new/';
+$config['base_url'] = 'http://localhost/website_welezo/';
 /*
 |--------------------------------------------------------------------------
 | Index File
@@ -183,6 +183,7 @@ $config['permitted_uri_chars'] = '';
 | use segment based URLs.
 |
 */
+$config['allow_get_array'] = TRUE;
 $config['enable_query_strings'] = FALSE;
 $config['controller_trigger'] = 'c';
 $config['function_trigger'] = 'm';

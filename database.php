@@ -79,6 +79,12 @@ $db['default'] = array(
 	'username' => 'root',
 	'password' => '',
 	'database' => 'welezohe_whms',
+
+	 // 'hostname' => '139.59.0.63',
+	 //  'username' => 'welezohe_whms',
+	 //  'password' => 'S@welezo@12345',
+	 // 'database' => 'welezohe_whms',
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
